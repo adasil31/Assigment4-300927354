@@ -7,9 +7,9 @@ using System.Threading.Tasks;
  * Name: Alessandro da Silva Santos
  *  Date: 2017-07-18
  *  Description: Assignment 4 Abstract Class
- *  Version 0.1 - Private instance declared
+ *  Version 0.2 - Public properties Created
  */
-  
+
 namespace Assigment4_300927354
 {
     class Program
