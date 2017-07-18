@@ -95,7 +95,14 @@ namespace Assigment4_300927354
             this._diameter = diameter;
             this._mass = mass;
         }
+        // to string created
+        public override string ToString()
+        {
+            return string.Format("The name is" + Name + "The diameter is " + Diameter + "The mass is" + Mass);
+        }
     }
+
+
 
 
 
