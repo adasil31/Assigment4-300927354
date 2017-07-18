@@ -88,7 +88,13 @@ namespace Assigment4_300927354
                 this._rotationPeriod = value;
             }
         }
-
+        //Constructor created
+        public Planet (string name, double diameter, double mass)
+        {
+            this._name = name;
+            this._diameter = diameter;
+            this._mass = mass;
+        }
     }
 
 

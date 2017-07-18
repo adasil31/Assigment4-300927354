@@ -7,7 +7,7 @@ using System.Threading.Tasks;
  * Name: Alessandro da Silva Santos
  *  Date: 2017-07-18
  *  Description: Assignment 4 Abstract Class
- *  Version 0.2 - Public properties Created
+ *  Version 0.3 - Constructor created
  */
 
 namespace Assigment4_300927354
