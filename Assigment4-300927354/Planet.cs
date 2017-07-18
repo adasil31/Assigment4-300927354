@@ -100,6 +100,7 @@ namespace Assigment4_300927354
         {
             return string.Format("The name is" + Name + "The diameter is " + Diameter + "The mass is" + Mass);
         }
+
     }
 
 
