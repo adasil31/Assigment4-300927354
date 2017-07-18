@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Assigment4_300927354
 {
-   /// <summary>
-   /// This is the Giant Planet class
-   /// </summary>
+    /// <summary>
+    /// This is the Giant Planet class
+    /// </summary>
     class GiantPlanet : Planet, IHasMoons, IHasRings
     {
         private string _type;
@@ -19,5 +19,20 @@ namespace Assigment4_300927354
             this._type = type;
         }
 
+        public bool HasMoons
+        {
+            //implement has moon
+            if (MoonCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
     }
 }
+
+
