@@ -32,6 +32,19 @@ namespace Assigment4_300927354
             }
 
         }
+        public bool HasRings
+        {
+            //implement has rings
+            if(RingCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
     }
 }
 
