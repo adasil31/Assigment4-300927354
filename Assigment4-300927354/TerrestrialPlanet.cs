@@ -15,6 +15,32 @@ namespace Assigment4_300927354
         {
             this._oxygen = oxygen;
         }
+        public bool HasMoons
+        {
+            //implement has moon
+            if (MoonCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+
+        }
+        public bool Habitable
+        {
+            //implement has Habitable
+            if (_oxygen == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
     }
 }
