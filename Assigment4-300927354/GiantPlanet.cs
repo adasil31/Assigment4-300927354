@@ -9,8 +9,7 @@ namespace Assigment4_300927354
     /// <summary>
     /// This is the Giant Planet class
     /// </summary>
-    class GiantPlanet: Planet
-    // IHasMoons, IHasRings
+   public class GiantPlanet: Planet, IHasMoons, IHasRings
     {
         private string _type;
 
@@ -20,7 +19,7 @@ namespace Assigment4_300927354
             this._type = type;
         }
 
-        public bool HasMoons
+        public bool HasMoons()
         {
             //implement has moon
             if (MoonCount > 0)
@@ -33,7 +32,7 @@ namespace Assigment4_300927354
             }
 
         }
-        public bool HasRings
+        public bool HasRings()
         {
             //implement has rings
             if(RingCount > 0)
