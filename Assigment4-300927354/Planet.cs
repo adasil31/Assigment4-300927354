@@ -95,10 +95,17 @@ namespace Assigment4_300927354
             this._diameter = diameter;
             this._mass = mass;
         }
-        // to string created
+        // to string created (correction of to string)
         public override string ToString()
-        {
-            return string.Format("The name is" + Name + "The diameter is " + Diameter + "The mass is" + Mass);
+
+        { string outputString = "";
+            outputString += "===========================================================\n";
+            outputString += "Name: " + this.Name + "\n";
+            outputString += "Diameter: " + this.Diameter + "\n";
+            outputString += "Mass: " + this.Mass + "\n";
+            outputString += "===========================================================\n";
+            return outputString;
+
         }
 
     }

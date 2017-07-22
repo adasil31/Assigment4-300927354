@@ -9,7 +9,8 @@ namespace Assigment4_300927354
     /// <summary>
     /// This is the Giant Planet class
     /// </summary>
-    class GiantPlanet : Planet, IHasMoons, IHasRings
+    class GiantPlanet: Planet
+    // IHasMoons, IHasRings
     {
         private string _type;
 

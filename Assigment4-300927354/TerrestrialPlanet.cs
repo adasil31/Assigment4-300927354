@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Assigment4_300927354
 {
-    class TerrestrialPlanet : Planet, IHasMoons, IHabitable
-    {
-        private bool _oxygen;
+    class TerrestrialPlanet : Planet
+            //, IHasMoons, IHabitable
+        {
+            private bool _oxygen;
 
         //this is the constructor.
         public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen) : base(name, diameter, mass)
@@ -17,30 +18,30 @@ namespace Assigment4_300927354
         }
         public bool HasMoons
         {
-            //implement has moon
-            if (MoonCount > 0)
-            {
+                //implement has moon
+                if (MoonCount > 0)
+                {
                 return true;
             }
-            else
-            {
+                else
+                {
                 return false;
             }
-
 
         }
         public bool Habitable
         {
-            //implement has Habitable
-            if (_oxygen == true)
-            {
+                //implement has Habitable
+                if (_oxygen == true)
+                {
                 return true;
             }
-            else
-            {
+                else
+                {
                 return false;
             }
         }
 
     }
+
 }
