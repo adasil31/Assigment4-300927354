@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assigment4_300927354
 {
-    class TerrestrialPlanet : Planet
-            //, IHasMoons, IHabitable
+    class TerrestrialPlanet : Planet, IHasMoons, IHabitable
         {
             private bool _oxygen;
 
@@ -16,7 +15,7 @@ namespace Assigment4_300927354
         {
             this._oxygen = oxygen;
         }
-        public bool HasMoons
+        public bool HasMoons()
         {
                 //implement has moon
                 if (MoonCount > 0)
@@ -29,7 +28,7 @@ namespace Assigment4_300927354
             }
 
         }
-        public bool Habitable
+        public bool Habitable()
         {
                 //implement has Habitable
                 if (_oxygen == true)

@@ -18,10 +18,10 @@ namespace Assigment4_300927354
 
         {
             //main created
-            GiantPlanet giantPlanet = new GiantPlanet("Saturn", 116464, 5.6836, "Gas");
+            GiantPlanet giantPlanet = new GiantPlanet("Saturn have ", 116464, 5.6836, "Gas");
             Console.WriteLine(giantPlanet.ToString());
 
-            TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("Earth", 12742, 5.972, true);
+            TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("Earth have ", 12742, 5.972, true);
             Console.WriteLine(terrestrialPlanet.ToString());
 
             WaitForAnyKey();
@@ -30,7 +30,7 @@ namespace Assigment4_300927354
         // public static WaitForAnyKey Created//
         public static void WaitForAnyKey()
         {
-            Console.WriteLine("Are you done? Press any key to close.");
+            Console.WriteLine("If you finish it press any key to close");
             Console.ReadKey();
         }
     }
